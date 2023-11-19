@@ -1,0 +1,327 @@
+/* Media query for screens with a maximum width of 768 pixels (adjust as needed) */
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 80px;
+    }
+
+    .menu,
+    .menu1 {
+        display: flex;
+    }
+
+    .headul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #f2f2f2;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .nffoto1{
+        width: 360px;
+        height: 490px;
+    }
+
+    .start{
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(BACKROUND\ START.jpg)
+    }
+    h1{
+        font-size: 25px;
+        flex-wrap: wrap;
+    }
+    .MP{
+        width: 420px;
+        display: flex;
+        padding-left: 10px;
+    }
+
+    .foto1{
+        width: 300px;
+        padding-left: 5vh;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+    .button div {
+        padding: 20px;
+    }
+
+    .orat{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .craftmanship{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        width: 400px;
+    }
+
+    .craftpic{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .store img  {
+        width: 400px;
+        height: auto;
+    }
+
+    .textt1{
+        padding: 10px 50px;
+    }
+
+    .store{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .boutiques{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        }
+    .craftmanship .boutiques{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        width: 400px;
+    }
+
+    .news{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+    }
+    .news img {
+        width: 400px;
+        height: auto;
+    }
+    .newstext{
+        margin: 0px 100px 0px 0px ;
+        padding: 0px;
+    }
+
+    .newstext h1{
+        margin: 0px 0px 0px 130px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .art{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .artpic{
+        display: flex;
+        padding: 0px;
+        width: 430px;
+    }
+
+    .artpic img{
+        width: 400px;
+        height: auto;
+    }
+
+    .arttext{
+        margin: 0px;
+        padding: 0px;
+        width: 430px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .arttext p {
+        margin: 0px;
+    }
+    .arttext h1{
+        margin: 0px;
+    }
+    .arttext a {
+        margin: 0px;
+        padding-top: 5px;
+    }
+
+
+    .latestnews{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .latestnews img {
+        width: 400px;
+        height: auto;
+    }
+
+    .latesttext{
+        margin: 0px;
+        padding: 0px;
+    }
+    .latestnews h2{
+        display: flex;
+        width: 410px;
+        margin: 20px 0px 10px 20px;
+    }
+    .im2{
+        margin-left: 15px;
+    }
+
+    .latestnews2{
+        height: auto;
+        width: auto;
+    }
+
+    .latestnews2 h4 {
+        margin-left: 20px;
+    }
+
+    .latestnews2 p {
+        margin-left: 20px;
+    }
+
+    .latestnews .learnmore2{
+        margin: 10px 0px 0px 20px;
+    }
+
+    
+    .latestnews2{
+        height: auto;
+        width: auto;
+    }
+
+    .latestnews2 h4 {
+        margin-left: 20px;
+    }
+
+    .latestnews2 p {
+        margin-left: 20px;
+    }
+
+
+    .im1{
+        margin-left: 15px;
+    }
+
+    .latestnews1{
+        height: auto;
+        width: auto;
+    }
+
+    .latestnews1 h4 {
+        margin-left: 20px;
+    }
+
+    .latestnews1 p {
+        margin-left: 20px;
+    }
+
+    .latestnews .learnmore2{
+        margin: 10px 0px 0px 20px;
+    }
+
+    
+    .latestnews1{
+        height: auto;
+        width: auto;
+    }
+
+    .latestnews1 h4 {
+        margin-left: 20px;
+    }
+
+    .latestnews1 p {
+        margin-left: 20px;
+    }
+
+        
+    
+
+    .im3{
+        margin-left: -5px;
+    }
+
+    .latestnews3{
+        height: auto;
+        width: auto;
+    }
+
+    .latestnews3 h4 {
+        margin-left: 20px;
+    }
+
+    .latestnews3 p {
+        margin-left: 20px;
+    }
+
+    .latestnews .learnmore2{
+        margin: 10px 0px 0px 20px;
+    }
+
+    
+    .latestnews3{
+        height: auto;
+        width: auto;
+    }
+
+    .latestnews3 h4 {
+        margin-left: 20px;
+    }
+
+    .latestnews3 p {
+        margin-left: 20px;
+    }
+
+    .latestnews3 a {
+        margin-left: 20px;
+    }
+
+
+    .prefooter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .textprefooter{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+    }
+    .btnprefooter{
+        margin: 0px;
+        width: auto;
+    }
+
+    footer .fotterhref a {
+        padding: 15px;
+    }
+
+    .text{
+        color: black;
+    }
